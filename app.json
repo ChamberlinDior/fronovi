@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "OVIRO Driver",
+    "slug": "oviro-driver-expo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#0B1220"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.oviro.driver"
+    },
+    "android": {
+      "package": "com.oviro.driver",
+      "edgeToEdgeEnabled": true
+    },
+    "plugins": [
+      "expo-location",
+      "@react-native-community/datetimepicker"
+    ]
+  }
+}
